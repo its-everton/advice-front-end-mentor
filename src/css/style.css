@@ -1,0 +1,82 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+
+    background-color: hsl(217, 19%, 24%);
+
+
+    border-radius: 10px;
+    margin: 20px;
+
+
+    width: 345px;
+    
+}
+
+.conselho {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: hsl(150, 100%, 66%); 
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+.info {
+    font-size: 23px;
+    padding: 23px;
+    text-align: center;
+    color:hsl(193, 38%, 86%); 
+}
+
+.pause {
+    width: 15px;
+    height: 15px;
+}
+
+.box{
+    background-color: hsl(150, 100%, 66%); 
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+    border: none;
+    transform: translateY(50%)
+}
+
+.box:hover {
+    color: #53ffab;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%); 
+}
+
+.box img{
+    width: 20px;
+    height: 20px;
+}
+
+@media (min-width: 768px) {
+    .card {
+        padding-inline: 50px;
+        width: 386px;
+    }
+
+    .advice p {
+        font-size: 21px;
+        padding: 26px;
+    }
+}
